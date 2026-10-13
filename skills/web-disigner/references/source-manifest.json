@@ -1,0 +1,1342 @@
+{
+  "schema_version": 1,
+  "name": "web-disigner",
+  "display_name": "web disigner",
+  "retrieved_at": "2026-10-13",
+  "sources": [
+    {
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "branch": "main",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "url": "https://github.com/pozdeevtimes-netizen/disigner-web"
+    },
+    {
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "branch": "main",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "url": "https://github.com/pozdeevtimes-netizen/ui-ux-pro-max-skill"
+    },
+    {
+      "repository": "pozdeevtimes-netizen/skills",
+      "branch": "main",
+      "resolved_ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "url": "https://github.com/pozdeevtimes-netizen/skills"
+    },
+    {
+      "repository": "pozdeevtimes-netizen/agent-skills",
+      "branch": "main",
+      "resolved_ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "url": "https://github.com/pozdeevtimes-netizen/agent-skills"
+    },
+    {
+      "repository": "pozdeevtimes-netizen/react-bits",
+      "branch": "main",
+      "resolved_ref": "496968c4117e21278f13917201b7d615bc5e7450",
+      "url": "https://github.com/pozdeevtimes-netizen/react-bits"
+    },
+    {
+      "repository": "pozdeevtimes-netizen/ui",
+      "branch": "main",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "url": "https://github.com/pozdeevtimes-netizen/ui"
+    },
+    {
+      "repository": "pozdeevtimes-netizen/GSAP",
+      "branch": "master",
+      "resolved_ref": "13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+      "url": "https://github.com/pozdeevtimes-netizen/GSAP"
+    },
+    {
+      "repository": "pozdeevtimes-netizen/playwright",
+      "branch": "main",
+      "resolved_ref": "a69a313712e43e09a53c57ae04ed6f110621875d",
+      "url": "https://github.com/pozdeevtimes-netizen/playwright"
+    },
+    {
+      "repository": "codrops/ElasticGridScroll",
+      "branch": "main",
+      "resolved_ref": "40e474582ae72df26cd9d90b05d5b15fed423abd",
+      "url": "https://github.com/codrops/ElasticGridScroll"
+    },
+    {
+      "repository": "codrops/interlude",
+      "branch": "main",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "url": "https://github.com/codrops/interlude"
+    },
+    {
+      "repository": "anthropics/skills",
+      "branch": "main",
+      "resolved_ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "url": "https://github.com/anthropics/skills"
+    },
+    {
+      "repository": "vercel-labs/web-interface-guidelines",
+      "branch": "main",
+      "resolved_ref": "434b7f91364665f2f733b310ec54809bf8f37937",
+      "url": "https://github.com/vercel-labs/web-interface-guidelines"
+    }
+  ],
+  "files": [
+    {
+      "local_path": "references/upstream/impeccable/craft-floor.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/craft-floor.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "ae213ce801ebb2085033b309b4144e8d7e9996ba",
+      "mode": "snapshot",
+      "sha256": "e802e4f7bdc89050a9c0f2ca506e1d493a2316e6e810c0336c57aa073717ef3e"
+    },
+    {
+      "local_path": "references/upstream/impeccable/new-work.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/new-work.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "f0bf69d0962adb577716286acfda85359958027e",
+      "mode": "snapshot",
+      "sha256": "9f51c0e9c693e549dfbb4634b89e2ce946998cfd67a3f9bda054dd9301f059be"
+    },
+    {
+      "local_path": "references/upstream/impeccable/layout.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/layout.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "aa547c742fc373bc459bdbb7977683441aa48ec0",
+      "mode": "snapshot",
+      "sha256": "0bc7d7971b3edf2acd0580e847458dc6d84129d90715b452799ace3bed815c7c"
+    },
+    {
+      "local_path": "references/upstream/impeccable/typeset.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/typeset.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "6f117f429cdefe60c0a07cbd5f02f72a40eb8a7d",
+      "mode": "snapshot",
+      "sha256": "442749aed338f51c1a3ccfb182c6ade9b74b90590b67984062ac94a5b100e914"
+    },
+    {
+      "local_path": "references/upstream/impeccable/animate.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/animate.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "c8fb9e038bb74a125646b64c49bc39711f63e8f4",
+      "mode": "snapshot",
+      "sha256": "d658c48ffbe0031e8e3b318996cad6ceafe29e40aa50d5bb25e4bf1d6839dc7c"
+    },
+    {
+      "local_path": "references/upstream/impeccable/audit.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/audit.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "fc9c3112427e0162d1eaa3fa0b9dd776e83f5a3d",
+      "mode": "snapshot",
+      "sha256": "41764be7bf974b95ee469f11c496714b4b3cf2ba594c0b8f838a0742680229a9"
+    },
+    {
+      "local_path": "references/upstream/impeccable/critique.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/critique.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "c1285ca137d9aa1280e538601a0e84140246fe56",
+      "mode": "snapshot",
+      "sha256": "cb8caddbb3919e5bf7f252143b519fb16db28a244642d937b186cb89962d9201"
+    },
+    {
+      "local_path": "references/upstream/impeccable/polish.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/polish.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "f93170f773cac058f51e289603aed7575d62a6a2",
+      "mode": "snapshot",
+      "sha256": "81666fc7f783b4e3514db6554e713dc0479bd9cdedb06e93d15f8b579aae869a"
+    },
+    {
+      "local_path": "references/upstream/impeccable/adapt.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/adapt.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "85f7c022f5c65baebdd8df16b996898a4f520e3a",
+      "mode": "snapshot",
+      "sha256": "871a8e4d749b807c693ebabd83defbd6c76e1bd2a0f53a28a460cb1308ba8634"
+    },
+    {
+      "local_path": "references/upstream/impeccable/harden.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/harden.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "124742e1cca3caff2c495009a8f408382e73e7d1",
+      "mode": "snapshot",
+      "sha256": "16ba7fca1973c5faf53dd2ca523559129c0fe9e5f8d50b645f527afa78186cd2"
+    },
+    {
+      "local_path": "references/upstream/impeccable/clarify.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/clarify.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "4506a31c95e02b2ad918367a0ef4461643d51532",
+      "mode": "snapshot",
+      "sha256": "173dd66abe65633910dcb04a51f40d6ff2a793f87088f022a02fc4cad24dd133"
+    },
+    {
+      "local_path": "references/upstream/impeccable/mode-persuade.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/mode-persuade.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "9c152d67064fb8453a7eaa89de20c35fc115b085",
+      "mode": "snapshot",
+      "sha256": "21e78c8a77badb3f83290cd4577ed3b24bd4dd3b57136d7da75733d4f3ee9ac0"
+    },
+    {
+      "local_path": "references/upstream/impeccable/mode-operate.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/mode-operate.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "833775ba85f03bf65a4c1b23e39192f7653414e6",
+      "mode": "snapshot",
+      "sha256": "7a52dd7a94ee75f6ae89542c86a1b6e1d306812b16e0d9dbf12d4acad44d148b"
+    },
+    {
+      "local_path": "references/upstream/impeccable/mode-read.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/mode-read.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "b30c4c9139e3094bd35c60738decb6109326153f",
+      "mode": "snapshot",
+      "sha256": "a569989e6a3d6453b4c45e9474e162a15cc54e11732ac6baa7990a6e7cccc0b5"
+    },
+    {
+      "local_path": "references/upstream/impeccable/distill.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/distill.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "13f6cd5840c2030406c8fa59b70cb5fa86c239ab",
+      "mode": "snapshot",
+      "sha256": "ea8432c90c30ecb0426662a681ead5c0941113079704e1a766cda09e85b15b4f"
+    },
+    {
+      "local_path": "references/upstream/impeccable/bolder.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/bolder.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "0ea9bcc0eb5f94d06bb3c3b52c5079eb1d0ca22a",
+      "mode": "snapshot",
+      "sha256": "f964506c0fae87b3c2c1db7016ddc9be9ef970bbcf5548d684b997b5d5991586"
+    },
+    {
+      "local_path": "references/upstream/impeccable/quieter.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/quieter.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "870ea86599bebf65509291df22533e4b5c3d4ceb",
+      "mode": "snapshot",
+      "sha256": "190a4e642ca362d7499f3c3ab123e21f18f75457d11f072b545a183f296e6495"
+    },
+    {
+      "local_path": "references/upstream/impeccable/shape.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/shape.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "90a74ae813331cbce8fff6beb498ced77970fadf",
+      "mode": "snapshot",
+      "sha256": "a55f016c046cb6a27c55bd7f346375aeb506a755c4fbca19a5f92dbd42309c23"
+    },
+    {
+      "local_path": "references/upstream/impeccable/overdrive.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/overdrive.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "34dface28cb99425f4153ee08447220ea1839b79",
+      "mode": "snapshot",
+      "sha256": "fce6688138d2ceb1e3d2cde5231f54b1d8dc8748b4c95a7919aa83b6f924cf96"
+    },
+    {
+      "local_path": "references/upstream/impeccable/delight.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/delight.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "60a8e83ee48d50901acfa886d3ec4bc72b40ec6f",
+      "mode": "snapshot",
+      "sha256": "098a891028ce59c212b747d3c70468dd750aff7053a703d1336045ed31e0da7c"
+    },
+    {
+      "local_path": "references/upstream/impeccable/extract.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/extract.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "7e98bd04605aaa8e6e7200deff5fe5cd5cc28841",
+      "mode": "snapshot",
+      "sha256": "31b90048c0b540daec46762a10c2b6b6434737a89af005054d8b848d829d003b"
+    },
+    {
+      "local_path": "references/upstream/impeccable/colorize.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": ".agents/skills/impeccable/reference/colorize.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "02fa661efac9229d6e869a20ef8ee928d4b986a0",
+      "mode": "snapshot",
+      "sha256": "bc5f71f1129d0f2c310d913d07c8dc609a1d25644121bd78c308f42d52a0b9e9"
+    },
+    {
+      "local_path": "references/upstream/impeccable/LICENSE",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": "LICENSE",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "bb3f6d23b1f8025514a62a12b51b47d73e3c9aa9",
+      "mode": "snapshot",
+      "sha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812"
+    },
+    {
+      "local_path": "references/upstream/impeccable/NOTICE.md",
+      "repository": "pozdeevtimes-netizen/disigner-web",
+      "upstream_path": "NOTICE.md",
+      "resolved_ref": "2f98774f86bc05563876643db37e6c37c322850f",
+      "upstream_blob_sha": "0468271c904ae334cfaf27da6f8df3d5f419a1f0",
+      "mode": "snapshot",
+      "sha256": "c60a093c2845fd9fb82f9c6f742ece31f379f8190b535309d32d66c45ccffdcb"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/app-interface.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/app-interface.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "95e328c807a23be02c9c32c736d0fa19109c6076",
+      "mode": "snapshot",
+      "sha256": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/catalog-summary.json",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/catalog-summary.json",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "f911c3ae48fac5863a5a5e210866ec5cabece164",
+      "mode": "snapshot",
+      "sha256": "6638da97231c07fb5cef3cd9d3ce483ca7b2f9748980f8c27490eb03968d8894"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/charts.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/charts.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "c6f4f875fd5b34379f24dbb541539492366a1058",
+      "mode": "snapshot",
+      "sha256": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/colors.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/colors.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "5d2bf7389105f8a824b504b57cc93c00dc1d7e0a",
+      "mode": "snapshot",
+      "sha256": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/data-provenance.json",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/data-provenance.json",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "e41d2e553bdc7e5a8e6d16f5daab565faf372188",
+      "mode": "snapshot",
+      "sha256": "e82fb33ed49375a300e93d9c11ccd1c1493c999e84ee7ee295e527634786e2e0"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/google-font-licenses.json",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/google-font-licenses.json",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "3ac2c34e80665bc902e265c52ab6c27b1654524c",
+      "mode": "snapshot",
+      "sha256": "35688523f2955795caa1a47c53b83099e60c1708461476f9cc3a050cf3b0148a"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/google-fonts.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/google-fonts.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "d7f87e3e0159b1caba083b9954793d9852256aa0",
+      "mode": "snapshot",
+      "sha256": "1c8c3b2ea1faf6a1012da463756def8b3889db33f2226f0343bb4daa80307d03"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/icons.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/icons.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "cfc3f1eccd7e5aee15d8d70f86d8fa17ba737958",
+      "mode": "snapshot",
+      "sha256": "50816c6012030178195a16ee481ebf58b47bd985d70e8ec58886cc83f6eddafc"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/landing.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/landing.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "34858160aa2789c49dca274d48bb116d51dd3f0a",
+      "mode": "snapshot",
+      "sha256": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/motion.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/motion.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "8e0ca9ceb0e4cd4832aee60ac74713e1e1830de8",
+      "mode": "snapshot",
+      "sha256": "381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "ec1d76b8117ccbfdce5df214bf0d993e41a75318",
+      "mode": "snapshot",
+      "sha256": "2399325233b277b5c97a80e6a5e8941154f5d057beee4e7613db87c87d700236"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/products.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/products.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "9f40f1d1f9743c4a81603076dfbfd115bbb55246",
+      "mode": "snapshot",
+      "sha256": "42473f75e8dde5987bdf89ce55d8c168091b80a356cae691dd60247d80720b70"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/react-performance.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/react-performance.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "425a8e76c6b3bae40e8c633ffbf7ad6222c9f73a",
+      "mode": "snapshot",
+      "sha256": "3d925802539abac5afeb63ae8aa1960b7229ad271b3a47caed40ab2d97ad0734"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/angular.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/angular.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "5a1878dbee2b3c55c6468cbb18699b84d1a8c4d2",
+      "mode": "snapshot",
+      "sha256": "704be83f2bad30c7e6de01afb113ffa01e0c458762f48b7102f31ba2367b5553"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/astro.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/astro.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "1fd2492420b20a0b311295ab883597fadb8245a6",
+      "mode": "snapshot",
+      "sha256": "2c2f55fadaafc05e04cc321c8194a1a28b656e6757fe2ba316f41b16428299c6"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/avalonia.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/avalonia.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "c67f4117105865587eda9020c57d8c209f3a929a",
+      "mode": "snapshot",
+      "sha256": "442fca14675a020683473e7e49f08abb27b9df0765c80efe54aef61f1a4ac258"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/flutter.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/flutter.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "731805c4076bd9f2755ca4bd7def5be6f6df7e9c",
+      "mode": "snapshot",
+      "sha256": "64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "9089eb0fc821ff0c8d135f8ee503be345e8fcb84",
+      "mode": "snapshot",
+      "sha256": "d05a581d20af57b8ca0104a6d31d90a07c437d500662a96c3029fc2f9a4678ee"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/javafx.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/javafx.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "744bd80f437f12bfb5bb9c84630a58022604675a",
+      "mode": "snapshot",
+      "sha256": "2e819b8d5abdd23ad4dae0991650fdb57af497aabd68b37463aa9c442944c869"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "8daa0b8f9a2ca3f0f1711664d9d677cd1c38dd9e",
+      "mode": "snapshot",
+      "sha256": "699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/laravel.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/laravel.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "ed11b0fba457e02857f996d1542fb0b8e1271756",
+      "mode": "snapshot",
+      "sha256": "854ea4daa5fc61292d22235ad33b49ba3fe22423c3de8d3cb03758ffed3b59f9"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/nextjs.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/nextjs.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "acdaf097dff26ba0d3b22ab4544bf6169c87afd4",
+      "mode": "snapshot",
+      "sha256": "ecd2c27b2ea0127d203ae726060efcdd7335b5e83f96b99e4f3befbbfeebd5a4"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "e2aaeca45faa8b987bf94010162b14d458811dde",
+      "mode": "snapshot",
+      "sha256": "fce682a338cfcdbf35d318d20e5befbe7b5d81b05abc37f87677a6d9cde84dc6"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "ceab9cf3358d2788af0bd7dc14cb3fab769740d0",
+      "mode": "snapshot",
+      "sha256": "3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/react-native.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/react-native.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "a5aea45dc1d0341b11ee42076a86db842d4d2a19",
+      "mode": "snapshot",
+      "sha256": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/react.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/react.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "fe8f001e695a978733449e04e99d7135af0f1bf3",
+      "mode": "snapshot",
+      "sha256": "4dd176a9787e5c6306b5df94158d75955adcdc6edab41ce5286641a5842303c1"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/shadcn.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/shadcn.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "0e8bedf3084e7a40d6310bcd3011c437efcb1700",
+      "mode": "snapshot",
+      "sha256": "e56cfde5b74907836ac3582a4779d5b7f3d206a702ab81b8669a1b668c3eeb51"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/svelte.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/svelte.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "51684fe70448e15333cd16207db7da8aea0508e6",
+      "mode": "snapshot",
+      "sha256": "f6e379ba802941ba26b01d4ffbe3cd39120f2587659a1d93851c707f66bc13db"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/swiftui.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/swiftui.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "ea9b95e8922e663b2adf27a7346e2c2f44c7a215",
+      "mode": "snapshot",
+      "sha256": "bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/threejs.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/threejs.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "f62286320038beabbdc5e11e07ca2818d8e959a4",
+      "mode": "snapshot",
+      "sha256": "155d583b9c64da0df4b6c6cb060c02eab222505e0734d6353da02c9e2b5d982b"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/uno.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/uno.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "9cab32326b4ad3a3cf43451a3c24553a41126cc1",
+      "mode": "snapshot",
+      "sha256": "a0474363e4225b5367214d5675fd3e075f137026f9500f0d04357882ef4f6d48"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/uwp.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/uwp.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "04a84ea092a7657fef11e5daa97982be52dc6f59",
+      "mode": "snapshot",
+      "sha256": "c409f08c1fbba1f1029f1acaa554e7b4471cc85517a5751c9f2e62465badcd5c"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/vue.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/vue.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "83997c515775170f22b638635aae0a67a46dfc87",
+      "mode": "snapshot",
+      "sha256": "b655f1ebb9dff2652d15981f31b1784c8a6d4759efd2815a14f3088257569f95"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/winui.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/winui.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "107ecead11728a83ec0ea10d815a9d1f43a35792",
+      "mode": "snapshot",
+      "sha256": "e676dc1c13ee6c205c40b0746f1335150a346c7a49a0616d2545bc3d2c930c85"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/stacks/wpf.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/stacks/wpf.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "4e88d6750833a74f85ba487cf2b8f4ff6ebd2f4a",
+      "mode": "snapshot",
+      "sha256": "9781a9950b20333637b30a02e498b7efca21b618a3eeb8665836f3ac6e974da7"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/styles.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/styles.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "d1eb2c216e453005ffa8232ffb94491c183afe3c",
+      "mode": "snapshot",
+      "sha256": "a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/typography.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/typography.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "70d107d107de30150863c965767320ec33ef29ad",
+      "mode": "snapshot",
+      "sha256": "321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/ui-reasoning.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/ui-reasoning.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "8931d4c809f8e22ddac00ce612ce0c35f34a59b6",
+      "mode": "snapshot",
+      "sha256": "f0774dd741cecdad5eec842034bd6d5e9ea50e9f220a1910069748daa0bb8e9a"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/data/ux-guidelines.csv",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/data/ux-guidelines.csv",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "4e7d52b296537a03513b18b2c3f2b946cc802051",
+      "mode": "snapshot",
+      "sha256": "ff81ec613f70ba9fc3fcce52dbe4ae35d44b2079dbe6dc066d2d6e38c28facd5"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/scripts/core.py",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/scripts/core.py",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "670fe33070cfe706401da4ff276831257dbf1e25",
+      "mode": "snapshot",
+      "sha256": "c3be4b23e7150e6b45095213158cfa3c8ad96502f01dde3f6ffff9de64a4f481"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/scripts/design_system.py",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/scripts/design_system.py",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "d5fe1575f00d839f919603bd09b44fe7e9def4fb",
+      "mode": "snapshot",
+      "sha256": "e7d1c94c4b2eada17c5551157668362659ccf9626d34dbd58e68142410f90103"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "63652a666b130c249ea1e2954316f1ac8a5a73d5",
+      "mode": "snapshot",
+      "sha256": "b8bac1af82aa280d3e06f00aabaeac4337e632996b07fed874e2b6ee6e9c5913"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/scripts/search.py",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/scripts/search.py",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "5038aa875a0d39f24dea803a4c73b38f8f56915f",
+      "mode": "snapshot",
+      "sha256": "d54e648fe0ec2932cac66684220cc17be4bd4b4eba1d23d3195d509d398db374"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/scripts/validate_data.py",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/scripts/validate_data.py",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "8b6c7941f6ad3e51cb9d412b11185133e7763001",
+      "mode": "snapshot",
+      "sha256": "a599aa256049cf30954d1f164721b99e453eb7e4cb8241bcab2d5573e6cf58b8"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/guide.md",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "41f8e2fd7f8c568228d0b55186ebe3f7b4007377",
+      "mode": "snapshot",
+      "sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/quick-reference.md",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "src/ui-ux-pro-max/templates/base/quick-reference.md",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "992ad8c792541a9a91cb7731fc8708fc6e87eb50",
+      "mode": "snapshot",
+      "sha256": "0a6da6ef08190792fa2d55eaa44ddaac0c071ff2cf9a087d372924c2a99e942f"
+    },
+    {
+      "local_path": "references/upstream/ui-ux-pro-max/LICENSE",
+      "repository": "pozdeevtimes-netizen/ui-ux-pro-max-skill",
+      "upstream_path": "LICENSE",
+      "resolved_ref": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+      "upstream_blob_sha": "1e71cbf26660f31903807d099fe902c098fc7e4c",
+      "mode": "snapshot",
+      "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
+    },
+    {
+      "local_path": "references/upstream/emil/emil-design-eng.md",
+      "repository": "pozdeevtimes-netizen/skills",
+      "upstream_path": "skills/emil-design-eng/SKILL.md",
+      "resolved_ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "upstream_blob_sha": "62ce902af8dd32c590ea7203e9ab2edb1d6ef81a",
+      "mode": "snapshot",
+      "sha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939"
+    },
+    {
+      "local_path": "references/upstream/emil/animate.md",
+      "repository": "pozdeevtimes-netizen/skills",
+      "upstream_path": "skills/animate/SKILL.md",
+      "resolved_ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "upstream_blob_sha": "7c3b20c6ed681b2d47c9ca9e3ee0e659ed47d032",
+      "mode": "snapshot",
+      "sha256": "b8ede161270458e6ae2e45e8a1985373515d4c63de5568ddb0f9012d7634356c"
+    },
+    {
+      "local_path": "references/upstream/emil/animation-performance.md",
+      "repository": "pozdeevtimes-netizen/skills",
+      "upstream_path": "skills/animation-performance/SKILL.md",
+      "resolved_ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "upstream_blob_sha": "d688dd7c3ba143c6ae17efd2bc665380d5252c5a",
+      "mode": "snapshot",
+      "sha256": "ceb9dd3fe912615830f725a0120ccf8d012d15a6218001a5cd6c15d38e39a957"
+    },
+    {
+      "local_path": "references/upstream/emil/animation-vocabulary.md",
+      "repository": "pozdeevtimes-netizen/skills",
+      "upstream_path": "skills/animation-vocabulary/SKILL.md",
+      "resolved_ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "upstream_blob_sha": "5ab2976514c74a194ebf069506d95ff3a5a0084f",
+      "mode": "snapshot",
+      "sha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94"
+    },
+    {
+      "local_path": "references/upstream/emil/review-animations.md",
+      "repository": "pozdeevtimes-netizen/skills",
+      "upstream_path": "skills/review-animations/SKILL.md",
+      "resolved_ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "upstream_blob_sha": "577a64397267ce20960de2202950594d5bd6f9b6",
+      "mode": "snapshot",
+      "sha256": "6ff590d29e436766135aa3d137be1fac2a867165c7257fc315b189361f1873af"
+    },
+    {
+      "local_path": "references/upstream/emil/improve-animations.md",
+      "repository": "pozdeevtimes-netizen/skills",
+      "upstream_path": "skills/improve-animations/SKILL.md",
+      "resolved_ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "upstream_blob_sha": "d6e77f37272329af0cc36f9eeedbe5226e86ce63",
+      "mode": "snapshot",
+      "sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6"
+    },
+    {
+      "local_path": "references/upstream/emil/pick-ui-library.md",
+      "repository": "pozdeevtimes-netizen/skills",
+      "upstream_path": "skills/pick-ui-library/SKILL.md",
+      "resolved_ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "upstream_blob_sha": "5e0028e988b88d2a88a019fdc978b4732243e467",
+      "mode": "snapshot",
+      "sha256": "675fdce308683256ed617351a9b74d23457a5fbd0a562d9831b9c764b8c5e682"
+    },
+    {
+      "local_path": "references/upstream/emil/break-ui.md",
+      "repository": "pozdeevtimes-netizen/skills",
+      "upstream_path": "skills/break-ui/SKILL.md",
+      "resolved_ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "upstream_blob_sha": "091a28d488662d2451131f1aaa60a6dcd2391932",
+      "mode": "snapshot",
+      "sha256": "e7eec1d70ac56a04255e9c0dbe98084ea3d544cc04aaad34f32c95d6fa9dff5e"
+    },
+    {
+      "local_path": "references/upstream/emil/LICENSE",
+      "repository": "pozdeevtimes-netizen/skills",
+      "upstream_path": "LICENSE",
+      "resolved_ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "upstream_blob_sha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "mode": "snapshot",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "local_path": "references/upstream/vercel/react-best-practices.md",
+      "repository": "pozdeevtimes-netizen/agent-skills",
+      "upstream_path": "skills/react-best-practices/AGENTS.md",
+      "resolved_ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "upstream_blob_sha": "4e340a50684a8e7811d5bfa4df48bd9989d0fd87",
+      "mode": "adapted",
+      "sha256": "00a735c5d03589f1a13b1393ae72078f8b924e3e84dd5d93059bb6fae07353de"
+    },
+    {
+      "local_path": "references/upstream/vercel/composition-patterns.md",
+      "repository": "pozdeevtimes-netizen/agent-skills",
+      "upstream_path": "skills/composition-patterns/AGENTS.md",
+      "resolved_ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "upstream_blob_sha": "558bf9aa1e36db2161f1633c9bfae14a819f0508",
+      "mode": "adapted",
+      "sha256": "25e1df18d0e781d723204f168299804d392b22b53f88fe3145ec788153a15118"
+    },
+    {
+      "local_path": "references/upstream/vercel/react-view-transitions.md",
+      "repository": "pozdeevtimes-netizen/agent-skills",
+      "upstream_path": "skills/react-view-transitions/AGENTS.md",
+      "resolved_ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "upstream_blob_sha": "ad47782cac25ac649fc1c34b70db8b690f5a2609",
+      "mode": "adapted",
+      "sha256": "68c01a379e95302406bf25d5bda72113efaf2e94f12f0b73da6e55419e7a66b1"
+    },
+    {
+      "local_path": "references/upstream/vercel/web-design-guide.md",
+      "repository": "pozdeevtimes-netizen/agent-skills",
+      "upstream_path": "skills/web-design-guidelines/SKILL.md",
+      "resolved_ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "upstream_blob_sha": "ceae92ab319216a68274168fba9b63b998b65997",
+      "mode": "adapted",
+      "sha256": "9f2ab0cc7d0eb8f8e1a3b4297c1c180f85989fe984cc4e3e6da799efbccbeb04"
+    },
+    {
+      "local_path": "references/upstream/vercel/interface-guidelines.md",
+      "repository": "vercel-labs/web-interface-guidelines",
+      "upstream_path": "AGENTS.md",
+      "resolved_ref": "434b7f91364665f2f733b310ec54809bf8f37937",
+      "upstream_blob_sha": "2785de041ab86453abcdbedd999084e6c207d6df",
+      "mode": "snapshot",
+      "sha256": "35411b4a2dcfa651fd33706a92cc860947364b521643107fbf3116abe3826d44"
+    },
+    {
+      "local_path": "references/upstream/vercel/LICENSE-interface-guidelines",
+      "repository": "vercel-labs/web-interface-guidelines",
+      "upstream_path": "LICENSE",
+      "resolved_ref": "434b7f91364665f2f733b310ec54809bf8f37937",
+      "upstream_blob_sha": "b3575a3c1358eac4b9ee36a4c851872d81417760",
+      "mode": "snapshot",
+      "sha256": "6cd1609c9c12233507cdd2ce0d32e9a721e3c27494951be06b90090deeeb7af2"
+    },
+    {
+      "local_path": "references/upstream/shadcn/guide.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/SKILL.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "c1e7388d2d9b9e90af44af9a5f135dae1b3a870a",
+      "mode": "snapshot",
+      "sha256": "0185f715bc985deca4223be426f898aa17f7d1a297a9857dfa79055e473bc34d"
+    },
+    {
+      "local_path": "references/upstream/shadcn/cli.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/cli.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "8a1d1958710902e2d38a3dd03d00aa09ab165dfe",
+      "mode": "snapshot",
+      "sha256": "a381e35bf36fe7bb851952c13707e01e82434fd7a4a4e53f6df26c6370838904"
+    },
+    {
+      "local_path": "references/upstream/shadcn/customization.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/customization.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "d43506d40520e8271da0b8ac9f994e190dbb9998",
+      "mode": "snapshot",
+      "sha256": "a19e81c78843df255e85755e52659268d793845add845b34ad8091f62bff3af9"
+    },
+    {
+      "local_path": "references/upstream/shadcn/design-system-page.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/design-system-page.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "cfa2f4186fe36c295a5878354f1ca2dd2cf66bf7",
+      "mode": "snapshot",
+      "sha256": "c541d661af159548744be3e27f79e7da710ab83f9afd448a4346f7ff1531d328"
+    },
+    {
+      "local_path": "references/upstream/shadcn/design-system.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/design-system.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "018f87bd78fad10ff309f9bc9bd88e0b10172b60",
+      "mode": "snapshot",
+      "sha256": "9ed11e93e7e80e34c8795d5ba82e5420ca905e8e9949fef79cbe9239184fd06b"
+    },
+    {
+      "local_path": "references/upstream/shadcn/mcp.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/mcp.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "6539ddaa2d0bc9e9d1fdf07658e1b0955136b721",
+      "mode": "snapshot",
+      "sha256": "8d696b4e45b7d0e337367248513bd9acebe8f3bcfd7b748c775e5a337c8f38c8"
+    },
+    {
+      "local_path": "references/upstream/shadcn/registry.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/registry.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "5369468bbe43126379161a403a53717ee86e2d9b",
+      "mode": "snapshot",
+      "sha256": "4f239be36bd2b58e17047db1ca80ab7da00e15a8b73242e5e4d50d113c4caa05"
+    },
+    {
+      "local_path": "references/upstream/shadcn/rules/base-vs-radix.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/rules/base-vs-radix.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "c1ed7d111a0195cab801d2b3d38dee3aee0b8e10",
+      "mode": "snapshot",
+      "sha256": "2b2deb47d004285220c1fc6b38bb2edc2d0ccbcdafd031b0b189d5d8ed0d1ba8"
+    },
+    {
+      "local_path": "references/upstream/shadcn/rules/chat.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/rules/chat.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "9e1a6bf8de28de688c730ff95016a03347b49014",
+      "mode": "snapshot",
+      "sha256": "de29c12524a27578a59ecf8c95ea939278c1a3572a3706bfc99f6f92cb770b7b"
+    },
+    {
+      "local_path": "references/upstream/shadcn/rules/composition.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/rules/composition.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "a8aa4274c1aaabf673fe7bdb69d90983ad56059d",
+      "mode": "snapshot",
+      "sha256": "f282df828d83a91132a846ddb62eea149a7c7c94822e9ca88cfddf85af01aa41"
+    },
+    {
+      "local_path": "references/upstream/shadcn/rules/forms.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/rules/forms.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "f451e2f7bc17d9c5738691931964744a568ea5d6",
+      "mode": "snapshot",
+      "sha256": "29593e14381e34626f8e0e9c15c59f3394b92a0623af6a6ec94585400123853c"
+    },
+    {
+      "local_path": "references/upstream/shadcn/rules/icons.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/rules/icons.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "bba8102f01ef9fd9bd7ce2adc73e562869d5d09e",
+      "mode": "snapshot",
+      "sha256": "d4a58266648872d9ee07d0c2368843a1cb88b8253b7f528dd7bda9d68b6c2535"
+    },
+    {
+      "local_path": "references/upstream/shadcn/rules/styling.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/rules/styling.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "4e6e063e1c7bc386e49f55da800546571b9e070b",
+      "mode": "snapshot",
+      "sha256": "f88fbd72dff862805b786dc7d7e4c74c83030fc278c5b97c993e4e665001798c"
+    },
+    {
+      "local_path": "references/upstream/shadcn/scripts/showcase-coverage.mjs",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "skills/shadcn/scripts/showcase-coverage.mjs",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "d8a4eab93cb2da6dbe24290483cf570c7d04bf6e",
+      "mode": "snapshot",
+      "sha256": "fb593e0806414d23b51354a46881f0b2873afc226bda0926a22f83cbd60af2fa"
+    },
+    {
+      "local_path": "references/upstream/shadcn/LICENSE.md",
+      "repository": "pozdeevtimes-netizen/ui",
+      "upstream_path": "LICENSE.md",
+      "resolved_ref": "30a58d4498f270af1c1e981a7d78a15cf5740841",
+      "upstream_blob_sha": "fad4d887a681dd49233e5ed01ee2c7a1513089a0",
+      "mode": "snapshot",
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f"
+    },
+    {
+      "local_path": "assets/react-bits/Components/Masonry/Masonry.tsx",
+      "repository": "pozdeevtimes-netizen/react-bits",
+      "upstream_path": "src/ts-tailwind/Components/Masonry/Masonry.tsx",
+      "resolved_ref": "496968c4117e21278f13917201b7d615bc5e7450",
+      "upstream_blob_sha": "e08242601133916cc6a04bc94bf3def68fdd2c36",
+      "mode": "snapshot",
+      "sha256": "8a34c385badca7d89e2ccf608291e8e983339ea911b4c66b937b4c6a3bce40e2"
+    },
+    {
+      "local_path": "assets/react-bits/Components/TiltedCard/TiltedCard.tsx",
+      "repository": "pozdeevtimes-netizen/react-bits",
+      "upstream_path": "src/ts-tailwind/Components/TiltedCard/TiltedCard.tsx",
+      "resolved_ref": "496968c4117e21278f13917201b7d615bc5e7450",
+      "upstream_blob_sha": "fb4e4160f2fba6b38fc523a50232b48fcd0399f4",
+      "mode": "snapshot",
+      "sha256": "675d49341392795137675fe646ede46d0ad2cf91d7c06cb213499dccb9a386f5"
+    },
+    {
+      "local_path": "assets/react-bits/TextAnimations/BlurText/BlurText.tsx",
+      "repository": "pozdeevtimes-netizen/react-bits",
+      "upstream_path": "src/ts-tailwind/TextAnimations/BlurText/BlurText.tsx",
+      "resolved_ref": "496968c4117e21278f13917201b7d615bc5e7450",
+      "upstream_blob_sha": "aba7d072d1a53bf621f84b398fb4b913b21a8c5f",
+      "mode": "snapshot",
+      "sha256": "c824a558bb484521abe6adac25ba8af839de81434018a4fe044fc9969fe353e3"
+    },
+    {
+      "local_path": "assets/react-bits/TextAnimations/ScrollReveal/ScrollReveal.tsx",
+      "repository": "pozdeevtimes-netizen/react-bits",
+      "upstream_path": "src/ts-tailwind/TextAnimations/ScrollReveal/ScrollReveal.tsx",
+      "resolved_ref": "496968c4117e21278f13917201b7d615bc5e7450",
+      "upstream_blob_sha": "11fc6ae02450f88860921fce3ea27035f7dd5d7c",
+      "mode": "snapshot",
+      "sha256": "bfabb87b161341c7bafd0fa7c8c9101c94be6c5de4854e7a4788b4f77c24d6d3"
+    },
+    {
+      "local_path": "assets/react-bits/TextAnimations/SplitText/SplitText.tsx",
+      "repository": "pozdeevtimes-netizen/react-bits",
+      "upstream_path": "src/ts-tailwind/TextAnimations/SplitText/SplitText.tsx",
+      "resolved_ref": "496968c4117e21278f13917201b7d615bc5e7450",
+      "upstream_blob_sha": "e17dea8cadce11de636d4728aefe87d7c21fede2",
+      "mode": "snapshot",
+      "sha256": "f740e4b939c2ed1f7b7c2e1eb83e8b2c31ef2837cb5723d011a945244fa360f6"
+    },
+    {
+      "local_path": "references/upstream/react-bits/overview.md",
+      "repository": "pozdeevtimes-netizen/react-bits",
+      "upstream_path": "README.md",
+      "resolved_ref": "496968c4117e21278f13917201b7d615bc5e7450",
+      "upstream_blob_sha": "313faf820efbc577330a0aeb5017972cb49591ab",
+      "mode": "snapshot",
+      "sha256": "d1bb05ffc79f9e5474e68cb6668055535d5ec1eaf840e5f03e3c0d91bee825d3"
+    },
+    {
+      "local_path": "assets/react-bits/LICENSE.md",
+      "repository": "pozdeevtimes-netizen/react-bits",
+      "upstream_path": "LICENSE.md",
+      "resolved_ref": "496968c4117e21278f13917201b7d615bc5e7450",
+      "upstream_blob_sha": "6425315416e94469f28d0223a09f7285b2f785ab",
+      "mode": "snapshot",
+      "sha256": "f4c33af6739191537738662d223b68d77bc226f4b57ea883e16481d8cc5c73c9"
+    },
+    {
+      "local_path": "references/upstream/gsap/overview.md",
+      "repository": "pozdeevtimes-netizen/GSAP",
+      "upstream_path": "README.md",
+      "resolved_ref": "13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+      "upstream_blob_sha": "291cd9ced95fd5be5c9d4e982b6eed130e8ff926",
+      "mode": "snapshot",
+      "sha256": "66a79667b0538b19634b5a000a9a3debe588c98d390424e73e5d4de847270828"
+    },
+    {
+      "local_path": "references/upstream/gsap/package.json",
+      "repository": "pozdeevtimes-netizen/GSAP",
+      "upstream_path": "package.json",
+      "resolved_ref": "13e2b790546426a1a2e0e9b409f3f8dc6d6611f2",
+      "upstream_blob_sha": "6d9c0c424b35d554b930f5efc1e2f43e006809cd",
+      "mode": "snapshot",
+      "sha256": "4ca16b896affd09e270d4dcf5149a02f57def55e4747ce11f68c7723fd3dedaa"
+    },
+    {
+      "local_path": "references/upstream/playwright/overview.md",
+      "repository": "pozdeevtimes-netizen/playwright",
+      "upstream_path": "README.md",
+      "resolved_ref": "a69a313712e43e09a53c57ae04ed6f110621875d",
+      "upstream_blob_sha": "f698c9470684b26aedc8e53f07408859fa7394ec",
+      "mode": "snapshot",
+      "sha256": "0a6a9dddcbf1295b61e83462ee7aa130289a4d4e60bac1a0deccd661f8fc8146"
+    },
+    {
+      "local_path": "references/upstream/playwright/screenshots.md",
+      "repository": "pozdeevtimes-netizen/playwright",
+      "upstream_path": "docs/src/screenshots.md",
+      "resolved_ref": "a69a313712e43e09a53c57ae04ed6f110621875d",
+      "upstream_blob_sha": "ba50a852a45a05d9772c2e9f7fe95e1a9ebc8c41",
+      "mode": "snapshot",
+      "sha256": "02ff36d89081eaf600b5988ff3b23e2f2723fb6c5e58cc14ea09d9f29b307188"
+    },
+    {
+      "local_path": "references/upstream/playwright/visual-comparisons.md",
+      "repository": "pozdeevtimes-netizen/playwright",
+      "upstream_path": "docs/src/test-snapshots-js.md",
+      "resolved_ref": "a69a313712e43e09a53c57ae04ed6f110621875d",
+      "upstream_blob_sha": "40b5a343e4bbcfcd925685304fd2e6e04f66f6dd",
+      "mode": "snapshot",
+      "sha256": "5fb8e631fcffe377ad12dec119a60ba0a66e63d89540dcd98f3fe85863362fb4"
+    },
+    {
+      "local_path": "references/upstream/playwright/emulation.md",
+      "repository": "pozdeevtimes-netizen/playwright",
+      "upstream_path": "docs/src/emulation.md",
+      "resolved_ref": "a69a313712e43e09a53c57ae04ed6f110621875d",
+      "upstream_blob_sha": "7f7a9b5599e75c5f2428e3e2476b5b3f9606a79e",
+      "mode": "snapshot",
+      "sha256": "b4e81a7af0d4da17666428fc27ee14d5b1aa41fb472305ef4506dffa3ac36bea"
+    },
+    {
+      "local_path": "references/upstream/playwright/configuration.md",
+      "repository": "pozdeevtimes-netizen/playwright",
+      "upstream_path": "docs/src/test-configuration-js.md",
+      "resolved_ref": "a69a313712e43e09a53c57ae04ed6f110621875d",
+      "upstream_blob_sha": "e97bdcfd79ebbc18cd63cb8b6851bf40eb083592",
+      "mode": "snapshot",
+      "sha256": "d0784aaf5925958911b42eb1dd8a2c4f6148292d8260de97ec4ee1ba30720f41"
+    },
+    {
+      "local_path": "references/upstream/playwright/LICENSE",
+      "repository": "pozdeevtimes-netizen/playwright",
+      "upstream_path": "LICENSE",
+      "resolved_ref": "a69a313712e43e09a53c57ae04ed6f110621875d",
+      "upstream_blob_sha": "df112373eb2e23e459bf93ec412be1764dc5a38b",
+      "mode": "snapshot",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    {
+      "local_path": "references/upstream/elastic-grid/overview.md",
+      "repository": "codrops/ElasticGridScroll",
+      "upstream_path": "README.md",
+      "resolved_ref": "40e474582ae72df26cd9d90b05d5b15fed423abd",
+      "upstream_blob_sha": "79a9dedf9c11186212a5d55bdab0c396e7931a84",
+      "mode": "snapshot",
+      "sha256": "5da838e37676e02c78b1d4676431e7e2f1e39115eea6bc7da961fcb208bf6c90"
+    },
+    {
+      "local_path": "references/upstream/elastic-grid/LICENSE",
+      "repository": "codrops/ElasticGridScroll",
+      "upstream_path": "LICENSE",
+      "resolved_ref": "40e474582ae72df26cd9d90b05d5b15fed423abd",
+      "upstream_blob_sha": "2e346f836b9c4207193fb052307bd6d934c7c841",
+      "mode": "snapshot",
+      "sha256": "13fe5db81108fe05df56de5375d2e85b511cf380e6faa5ecb59415ecb6738841"
+    },
+    {
+      "local_path": "references/upstream/interlude/overview.md",
+      "repository": "codrops/interlude",
+      "upstream_path": "README.md",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "851d3bda51bb16e2c1478d24e009d17ed24f13ce",
+      "mode": "snapshot",
+      "sha256": "2a57c107514d16dab6f296a33ea5faa408dd9802ff7018b38badfe0049002132"
+    },
+    {
+      "local_path": "references/upstream/interlude/LICENSE",
+      "repository": "codrops/interlude",
+      "upstream_path": "LICENSE",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "b744b574458e676f99886331adb86a3313ee3a07",
+      "mode": "snapshot",
+      "sha256": "db62f6932e155e373f871fbbac3f422c47fc0a7eb58a7f21b033e7466f8f7809"
+    },
+    {
+      "local_path": "assets/codrops/elastic-grid/js/demo1/index.js",
+      "repository": "codrops/ElasticGridScroll",
+      "upstream_path": "js/demo1/index.js",
+      "resolved_ref": "40e474582ae72df26cd9d90b05d5b15fed423abd",
+      "upstream_blob_sha": "c649c24ada7e3bd3b8d661aaba86f4d5d83220a1",
+      "mode": "snapshot",
+      "sha256": "89c08c09e94f78b1dbff6048f2b617fd6e7e8c87e8d5cff04d6a782b971c3848"
+    },
+    {
+      "local_path": "assets/codrops/elastic-grid/js/utils.js",
+      "repository": "codrops/ElasticGridScroll",
+      "upstream_path": "js/utils.js",
+      "resolved_ref": "40e474582ae72df26cd9d90b05d5b15fed423abd",
+      "upstream_blob_sha": "a12746542abc1c36b655b67297406584f4cc6742",
+      "mode": "snapshot",
+      "sha256": "0b82d620c6be3a5fb20393f78922ef2efa930349c570ee52a23b5da35af98f51"
+    },
+    {
+      "local_path": "assets/codrops/elastic-grid/css/base.css",
+      "repository": "codrops/ElasticGridScroll",
+      "upstream_path": "css/base.css",
+      "resolved_ref": "40e474582ae72df26cd9d90b05d5b15fed423abd",
+      "upstream_blob_sha": "d54047bb257fa79d202aef9a1e2e933573c723b0",
+      "mode": "snapshot",
+      "sha256": "96a7bf2f47146f19c42256dc983f8cfd3146b703daed50dc86340594ebd495de"
+    },
+    {
+      "local_path": "references/upstream/anthropic/frontend-design.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/frontend-design/SKILL.md",
+      "resolved_ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "upstream_blob_sha": "a5333457c414d20d625f307df945842c0952ecc3",
+      "mode": "snapshot",
+      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+    },
+    {
+      "local_path": "references/upstream/anthropic/LICENSE.txt",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/frontend-design/LICENSE.txt",
+      "resolved_ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "upstream_blob_sha": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+      "mode": "snapshot",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "local_path": "assets/codrops/interlude/package.json",
+      "repository": "codrops/interlude",
+      "upstream_path": "package.json",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "42df1ac438a7541fe3d3b8507c7c9f0fbe3cfe8b",
+      "mode": "snapshot",
+      "sha256": "5fb1b10ebe3ef41386b280c1d6d165fb191f9c89caf138dae7a824dc57f2b1d2"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/components/Interlude.astro",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/components/Interlude.astro",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "4fc5e63aeb04b34d081ea2985872593e21f113cb",
+      "mode": "snapshot",
+      "sha256": "4c9bfcca1eb2832b3e46d9a62c34ff848e1afa9a5a0d40de442bdbd79275fe73"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/interlude.config.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/interlude.config.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "af3a8cdc7bf2bf09e914f329f050eb553773b6d5",
+      "mode": "snapshot",
+      "sha256": "3d6759d1e82caddb1f50275dd778d9362c5c88b6682b9e6244594d97f2e2f8bf"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/lib/interlude/controller.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/lib/interlude/controller.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "7e4ff72589a83e308541ac7e166caf1621881f43",
+      "mode": "snapshot",
+      "sha256": "4fb8774112a18697f9e4decc3455d569ef919741de50ffa4c36d5e0a9aa3820f"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/lib/interlude/helpers.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/lib/interlude/helpers.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "29e7557c8e8325799477634ae4d94ac9bdd6ca8f",
+      "mode": "snapshot",
+      "sha256": "feba13fb6b9611414859533b4aa0b68031f0ba0bb65633b6585ecd26cc2361d4"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/lib/interlude/index.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/lib/interlude/index.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "b614a24d7aa201f294a7d5f22960567408ec719c",
+      "mode": "snapshot",
+      "sha256": "c4564d5b89c2c58e3d87c5f1ae6abfc780254bda4a4ea5801fa5c1421f9422c4"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/lib/interlude/lifecycle.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/lib/interlude/lifecycle.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "f2815ef0b7c289c62600d497857962c08499cf5e",
+      "mode": "snapshot",
+      "sha256": "daaa1036d65585bddfd50ef22790906d41d59cdb5e6b54782287234378e15c99"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/lib/interlude/media.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/lib/interlude/media.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "881e5f70d1e74e9efb1aeb352e2e19bcd4ca0621",
+      "mode": "snapshot",
+      "sha256": "ab2df31d807f3de9997cba92bac16e5fb43efa0b8593ae478310d4e1cc823423"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/lib/interlude/old-page.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/lib/interlude/old-page.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "e164cbfeebb4bd35cb1e40186f58b168f55529b4",
+      "mode": "snapshot",
+      "sha256": "873eff3b9bce5d64666b2410c17bca1929af2d85477b871663942e78cd1bf5fb"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/lib/interlude/registry.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/lib/interlude/registry.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "bdc9d99cfd00b2c9dd65b8c7eb2d27e38194bd50",
+      "mode": "snapshot",
+      "sha256": "fa7601da721c7b47c7ab4c484af1505184e189e02978dc686dc7f18281941832"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/lib/interlude/types.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/lib/interlude/types.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "7193540be25384f172c1aae533146792b5c5513c",
+      "mode": "snapshot",
+      "sha256": "bc16b22d105df8246327cec792d6e660297e441b061cf2631917a1bc6ce2d2dc"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/lib/interlude/webgl.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/lib/interlude/webgl.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "eee4576398ef75acbaf60b5d89336c0322dbd425",
+      "mode": "snapshot",
+      "sha256": "83b7ef4779a733b27caae99a6f21e88afce469f76c65ed8dc871c5a7ae0a1405"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/transitions/curtain.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/transitions/curtain.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "b8f7de8f76d0d71d49bb88d672000e8bddabf7fc",
+      "mode": "snapshot",
+      "sha256": "a7f9993058aad89d4c75495a7052581d235a81bbd7bcdaf05e4d0486a08ef1a4"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/transitions/typewriter.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/transitions/typewriter.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "36bff576cc2684b2d1bf04fed323ca4b2d5b24bd",
+      "mode": "snapshot",
+      "sha256": "f1ee9993296210ee319d43c2463a38accb16eb6712dcd4277b6ba78744006d56"
+    },
+    {
+      "local_path": "assets/codrops/interlude/src/transitions/wipe.ts",
+      "repository": "codrops/interlude",
+      "upstream_path": "src/transitions/wipe.ts",
+      "resolved_ref": "3f1a9ce2b27ef724817659236599ecd63062fef2",
+      "upstream_blob_sha": "d5c339d15903722a4b760350fba9f3c6f0cd9dc8",
+      "mode": "snapshot",
+      "sha256": "9cd74a977d3bbb8f5d59d2b76b7621f765764c854ceff453bd3ba6fe2defc469"
+    }
+  ]
+}

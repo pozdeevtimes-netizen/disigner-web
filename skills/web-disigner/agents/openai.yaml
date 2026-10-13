@@ -1,0 +1,4 @@
+interface:
+  display_name: "web disigner"
+  short_description: "Дизайн, UX/UI и адаптивные сайты под вашим руководством"
+  default_prompt: "Используй $web-disigner: создай сайт по моему брифу, предложи визуальное направление и проверь вёрстку в браузере."
